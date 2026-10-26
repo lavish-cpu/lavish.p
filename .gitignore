@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated model/data artifacts
+artifacts/
+data/*.csv
+*.joblib
+*.pkl
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
